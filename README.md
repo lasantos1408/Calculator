@@ -54,8 +54,8 @@ Visual Studio 2019 URL: https://visualstudio.microsoft.com/es/thank-you-download
 
 # Como ejecutar la aplicación
 
-Abrir solución Calculator.sln con Visual Studio 2019, luego ejecutar dicha solución y automáticamente se levantarán el servicio WebAPI en un navegador y la aplicación
-de consola esta  última con la que debe interactuar el usuario para realizar las operaciones de la calculadora.
+Abrir solución Calculator.sln con Visual Studio 2019, luego ejecutar dicha solución precionando la tecla F5 y automáticamente se levantarán el servicio WebAPI en un navegador y la aplicación
+de consola, esta  última con la que debe interactuar el usuario para realizar las operaciones de la calculadora. La solución está configurada para que se ejecuten los dos proyectos al mismo tiempo. 
 
 
 
