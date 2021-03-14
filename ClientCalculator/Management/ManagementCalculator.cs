@@ -42,7 +42,7 @@ namespace ClientCalculator.Management
                 {
                     AdditionResult resultAdd = (new JavaScriptSerializer()).Deserialize<AdditionResult>(responseRest.Content);
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\n\nRESULTADO, SUMATORIA: " + resultAdd.Sum + ". " + (logAdd != "" ? " La operacion fue registrada en el log." : ""));
+                    Console.WriteLine("\n\nRESULTADO, SUMATORIA: " + resultAdd.Sum + ". " + (logAdd != "0" ? " La operacion fue registrada en el log." : ""));
                 }
                 else
                 {
@@ -88,7 +88,7 @@ namespace ClientCalculator.Management
                 {
                     SubtractionResult resultSubs = (new JavaScriptSerializer()).Deserialize<SubtractionResult>(responseRest.Content);
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\n\nRESULTADO, DIFERENCIA: " + resultSubs.Difference + ". " + (logSub != "" ? " La operacion fue registrada en el log. " : ""));
+                    Console.WriteLine("\n\nRESULTADO, DIFERENCIA: " + resultSubs.Difference + ". " + (logSub != "0" ? " La operacion fue registrada en el log. " : ""));
                 }
                 else
                 {
@@ -133,7 +133,7 @@ namespace ClientCalculator.Management
                 {
                     MultiplicationResult resultRest = (new JavaScriptSerializer()).Deserialize<MultiplicationResult>(responseRest.Content);
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\n\nRESULTADO, MULTIPLICACION: " + resultRest.Product + ". " + (logMultiplication != "" ? " La operacion fue registrada en el log." : ""));
+                    Console.WriteLine("\n\nRESULTADO, MULTIPLICACION: " + resultRest.Product + ". " + (logMultiplication != "0" ? " La operacion fue registrada en el log." : ""));
                 }
                 else
                 {
@@ -179,7 +179,7 @@ namespace ClientCalculator.Management
                 {
                     DivisionResult result = (new JavaScriptSerializer()).Deserialize<DivisionResult>(responseRest.Content);
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\n\nRESULTADO, COCIENTE: " + result.Quotient + " - RESTO: " + result.Remainder + "." + (logDiv != "" ? " La operacion fue registrada en el log." : ""));
+                    Console.WriteLine("\n\nRESULTADO, COCIENTE: " + result.Quotient + " - RESTO: " + result.Remainder + "." + (logDiv != "0" ? " La operacion fue registrada en el log." : ""));
                 }
                 else
                 {
@@ -225,7 +225,7 @@ namespace ClientCalculator.Management
                 {
                     SqrtResult resultJava = (new JavaScriptSerializer()).Deserialize<SqrtResult>(responseRest.Content);
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\n\nRESULTADO, CUADRADO: " + resultJava.Square + ". " + (logSqrt != "" ? " La operacion fue registrada en el log." : ""));
+                    Console.WriteLine("\n\nRESULTADO, CUADRADO: " + resultJava.Square + ". " + (logSqrt != "0" ? " La operacion fue registrada en el log." : ""));
                 }
                 else
                 {
