@@ -267,7 +267,7 @@ namespace ClientCalculator.Management
                     {
                         foreach (var item in resultJava)
                         {
-                            Console.WriteLine("Id:" + item.Id + "- Operación: " + item.Operation + "- Calculo: " + item.Calculation + " Fecha: " + item.Date);
+                            Console.WriteLine("Id:" + item.Id + "- Operación: " + item.Operation + "- Cálculo: " + item.Calculation + " Fecha: " + item.Date);
                         }
                     }
                     else if (resultJava.Count == 0)
