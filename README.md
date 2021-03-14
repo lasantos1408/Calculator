@@ -13,7 +13,7 @@ Sistema implementado en ASP/WebAPI, lenguaje de programación C# y .NET Framewor
 Solución que implementa las aplicaciones:
 ClientCalculator: Aplicación de consola que consume el servicio REST que realiza las operaciones aritméticas.
 ServiceCalculator: Servicio ASP/WebAPI que implementa una calculadora con operaciones básicas.
-ServiceCalculator.Test: Aplicación para pruebasunitarias.
+ServiceCalculator.Test: Aplicación para pruebas unitarias.
 
 # ClientCalculator
 
@@ -54,7 +54,7 @@ Visual Studio 2019 URL: https://visualstudio.microsoft.com/es/thank-you-download
 
 # Como ejecutar la aplicación
 
-Abrir solución Calculator.sln con Visual Studio 2019, luego ejecutar dicha solución precionando la tecla F5 y automáticamente se levantarán el servicio WebAPI en un navegador y la aplicación
+Abrir solución Calculator.sln con Visual Studio 2019, luego ejecutar dicha solución con la combinación de teclas (Ctrl + F5) y automáticamente se levantarán el servicio WebAPI en un navegador y la aplicación
 de consola, esta  última con la que debe interactuar el usuario para realizar las operaciones de la calculadora. La solución está configurada para que se ejecuten los dos proyectos al mismo tiempo. 
 
 
